@@ -1,5 +1,6 @@
-# CatBlogg
+# CatBlogg 
 *Exemplar rails app with matterilaze css* 
+[Kitty]: http://placekitten.com/300/300 "Kitty because cats"
 
 
 Don't hate on the bad rails, followed half of [this tutorial](http://guides.rubyonrails.org/getting_started.html)
