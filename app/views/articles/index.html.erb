@@ -1,0 +1,17 @@
+<h1>All cats</h1>
+
+<ol>
+  <% @articles.each do |article| %>
+  <li>
+    <%= article.title %>
+    <ul><li>
+      <%= article.text %> <br>
+      <em><%= link_to 'Show', article_path(article) %></em> / 
+      <em><%= link_to 'Edit', edit_article_path(article.id ) %></em>
+    </li></ul>
+  </li>
+  <% end %>
+</ol>
+
+<%= link_to 'Back', root_path %> / 
+<%= link_to 'New Cat', new_article_path %>
