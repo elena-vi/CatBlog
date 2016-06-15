@@ -8,4 +8,4 @@ Materialize css documentation [here](http://materializecss.com/)
 
 Materialize css gem doc here [here](https://github.com/mkhairi/materialize-sass)
 
-<!-- Running on heroku [here](http://catblogg.herokuapp.com/) -->
+Running on heroku [here](http://catblogg.herokuapp.com/)
