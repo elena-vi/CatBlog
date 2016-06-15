@@ -1,4 +1,4 @@
-# CatBlog
+# CatBlogg
 *Exemplar rails app with matterilaze css* 
 
 
