@@ -17,3 +17,10 @@
 $primary-color: color("blue", "lighten-2");
 $secondary-color: color("red", "lighten-2");
 @import 'materialize';
+
+
+a {
+	@extend .btn;
+	@extend .waves-effect;
+	@extend  .waves-light;
+}

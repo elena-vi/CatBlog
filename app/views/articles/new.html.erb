@@ -15,19 +15,31 @@
     </div>
   <% end %>
  
+  <div class="row">
+    <div class="input-field col s6">
+      <%= f.text_field :title %>
+      <%= f.label :title %>
+    </div>
+    <div class="input-field col s6">
+      <%= f.text_area :text, :class => 'materialize-textarea' %>
+      <%= f.label :text %>
+    </div>
+  </div>
+  
   <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </p>
- 
-  <p>
-    <%= f.label :text %><br>
-    <%= f.text_area :text %>
-  </p>
- 
-  <p>
-    <%= f.submit %>
+    <%= f.submit :class => 'btn waves-effect waves-light left yellow'  %>
   </p>
  
 <% end %>
-<%= link_to 'Back', articles_path %>
+<% link_to 'Back', articles_path, :class => 'right ' %>
+<!-- <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a> -->
+<!-- <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div> -->

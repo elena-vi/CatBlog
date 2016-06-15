@@ -1,4 +1,20 @@
-<h1>Welcome cat!</h1>
-<img src="http://placekitten.com/300/300"> <br>
-<%= link_to 'Cat List', controller: 'articles' %> /
-<%= link_to 'New Cat', new_article_path %>
+
+
+<div class="row">
+  <div class="col s12 m7">
+    <div class="card">
+      <div class="card-image">
+			<img src="http://placekitten.com/300/300">
+        <span class="card-title">Welcome cat!</span>
+      </div>
+      <div class="card-content">
+        <p>Cats are love cats are life</p>
+      </div>
+      <div class="card-action">
+			<%= link_to 'Cat List', controller: 'articles' %> 
+			<%= link_to 'New Cat', new_article_path %>
+
+      </div>
+    </div>
+  </div>
+</div>

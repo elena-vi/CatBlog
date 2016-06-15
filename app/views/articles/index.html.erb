@@ -6,7 +6,7 @@
     <%= article.title %>
     <ul><li>
       <%= article.text %> <br>
-      <em><%= link_to 'Show', article_path(article) %></em> / 
+      <em><%= link_to 'Show', article_path(article) %></em> 
       <em><%= link_to 'Edit', edit_article_path(article.id ) %></em>
     </li></ul>
   </li>
@@ -15,3 +15,23 @@
 
 <%= link_to 'Back', root_path %> / 
 <%= link_to 'New Cat', new_article_path %>
+
+
+<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+          
